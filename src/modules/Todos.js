@@ -64,7 +64,7 @@ const initialState = {
           )
         };
       case REMOVE:
-        return {E
+        return {
           ...state,
           todos: state.todos.filter(todo => todo.id !== action.id)
         };
